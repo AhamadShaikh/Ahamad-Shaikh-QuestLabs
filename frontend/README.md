@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Ahamad-Shaikh-QuestLabs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Quest Labs
 
-## Available Scripts
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+Install react with npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+  npm install react
+```
+```bash
+  npm install react-beautiful-dnd
+```
+```bash
+  npm install react-icons
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+# Responsiveness
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Small Screen
 
-### `npm run build`
+![Screenshot (5564)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/dfaa5f1f-b225-467d-8ffd-1b699b0a228f)
+# Medium Screen
+![Screenshot (5563)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/49113fd4-057b-4f07-a353-8bc719217037)
+# Large Screen
+![Screenshot (5562)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/5f42b362-4870-4592-89e4-128b68c8e999)
+# Add a card functionality
+![Screenshot (5561)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/05fde77d-5615-4da7-a129-7d072bdde585)
+![Screenshot (5560)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/6b8052a4-5b86-4452-8ce7-f822bfd4f4f1)
+![Screenshot (5559)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/663ab7fc-095e-4cf9-ab12-e54ea362757a)
+# Drag and Drop functonality
+![Screenshot (5557)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/a02673d1-d746-44f6-950f-e6418b5ac75f)
+![Screenshot (5556)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/42e90c44-5e90-4379-838e-bc5786baf82a)
+![Screenshot (5555)](https://github.com/AhamadShaikh/Ahamad-Shaikh-QuestLabs/assets/115461870/309193cb-1a73-477a-93a9-3e6427033dbc)
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To deploy this project run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  netlify
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Drag and Drop
+- Add a card
+- Reorder the card
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tech Stack
 
-## Learn More
+**Client:** React, CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
