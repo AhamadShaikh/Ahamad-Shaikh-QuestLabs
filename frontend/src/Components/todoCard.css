@@ -1,0 +1,29 @@
+.todo-card-main {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.todo-card-main:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.color-bar {
+    padding: 10px;
+}
+
+.container-2 {
+    display: flex;
+    gap: 20px;
+}
+
+
+.message {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    font-size: 12px;
+}

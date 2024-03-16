@@ -1,0 +1,53 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #F1F2F4;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.todo-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addCardBtn button {
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+}
+
+.addCardBtn {
+    text-align: left;
+    padding-left: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.create-card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.create-card button {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 2px;
+    background-color: #3179BA;
+    color: white;
+}
+
+.create-card button:hover {
+    background-color: #61dafb;
+    color:black
+}

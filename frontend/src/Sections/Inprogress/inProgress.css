@@ -1,0 +1,13 @@
+.InProgress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #F1F2F4;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.InProgress-header {
+    display: flex;
+    justify-content: space-around;
+}
