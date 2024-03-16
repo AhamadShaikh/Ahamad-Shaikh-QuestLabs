@@ -1,29 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react'
 import { BsThreeDots } from "react-icons/bs";
-import "./inProgress.css";
+import "./done.css"
 import { Droppable } from 'react-beautiful-dnd';
 import TodoCard from '../../Components/TodoCard';
 
-const InProgress = ({ inProgress }) => {
+const Done = ({ done }) => {
+
   return (
-    <div className='InProgress'>
-      <Droppable droppableId='InProgressList'>
+    <div className='Done'>
+      <Droppable droppableId='DoneList'>
         {
           (provided, snapshot) => (
             <div ref={provided.innerRef} {...provided.droppableProps}>
-              <div className='InProgress-header'>
+              <div className='Done-header'>
                 <div>
-                  <b>In Progress</b>
+                  <b>Done</b>
                 </div>
                 <div>
                   <BsThreeDots />
                 </div>
               </div>
-              <div className='InProgress'>
+              <div className='Done'>
                 {
-                  inProgress?.map((item, ind) => (
-                    <TodoCard key={item.id} item={item} index={ind} />
+                  done?.map((ele, ind) => (
+                    <TodoCard key={ind} item={ele} index={ind} />
                   ))
+
                 }
               </div>
               {provided.placeholder}
@@ -33,9 +35,11 @@ const InProgress = ({ inProgress }) => {
             </div>
           )
         }
+
       </Droppable>
+
     </div>
-  );
+  )
 }
 
-export default InProgress;
+export default Done

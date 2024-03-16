@@ -4,8 +4,7 @@ import { BsThreeDots } from "react-icons/bs";
 import "./todo.css"
 import { Droppable } from 'react-beautiful-dnd';
 
-const Todo = ({ todos,handleAddCard,inputValue,setInputValue }) => {
-    const [show, setShow] = useState(false)
+const Todo = ({ todos, handleAddCard, inputValue, setInputValue, show, setShow }) => {
 
     const handleAddCardBtn = () => {
         setShow(!show)
@@ -19,7 +18,7 @@ const Todo = ({ todos,handleAddCard,inputValue,setInputValue }) => {
                         <div ref={provided.innerRef} {...provided.droppableProps}>
                             <div className='todo-header'>
                                 <div>
-                                    Todo
+                                    <b>Todo</b>
                                 </div>
                                 <div>
                                     <BsThreeDots />
@@ -36,8 +35,8 @@ const Todo = ({ todos,handleAddCard,inputValue,setInputValue }) => {
                             {
                                 show ? (
                                     <div className='create-card'>
-                                        <input type="text" value={inputValue} onChange={(e)=> setInputValue(e.target.value)}/>
-                                        <button>Add a card</button>
+                                        <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+                                        <button onClick={handleAddCard}>Add a card</button>
                                     </div>
                                 ) :
                                     (

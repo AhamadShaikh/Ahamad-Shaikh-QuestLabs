@@ -5,6 +5,7 @@
     text-align: left;
     padding-left: 10px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .todo-card-main:hover {
@@ -12,7 +13,9 @@
 }
 
 .color-bar {
-    padding: 10px;
+    padding: 3px;
+    width: 50px;
+    border-radius: 2px;
 }
 
 .container-2 {
@@ -26,4 +29,37 @@
     gap: 3px;
     align-items: center;
     font-size: 12px;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.black {
+    background-color: black;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.brown {
+    background-color: brown;
 }
